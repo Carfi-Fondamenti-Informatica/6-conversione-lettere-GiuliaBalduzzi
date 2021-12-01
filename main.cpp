@@ -1,5 +1,13 @@
 #include <iostream>
+#include "prototipoconversionee.h"
 
-int main(){
-  return 0;
+using namespace std;
+
+int main() {
+    char imput;
+    char valore;
+    cin >> imput;
+    valore = conversionelettere (imput);
+    conversionelettere (imput) ? cout<<valore : cout << "errore";
+    return 0;
 }
